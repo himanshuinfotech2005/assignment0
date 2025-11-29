@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "last_updated": "2025-10-03T14:30:00Z",
+    "system_status": "operational",
+    "data_sources_online": 15,
+    "ai_models_active": 6
+  },
+  "datasets": 2847,
+  "species": 127,
+  "alerts": 6,
+  "jobs": 4,
+  "real_time_stats": {
+    "monitoring_stations": 4,
+    "sensors_active": 24,
+    "data_points_today": 5760,
+    "processing_queue": 12,
+    "storage_used_gb": 890.5,
+    "uptime_hours": 2184
+  },
+  "anomalies": [
+    {
+      "title": "Temperature Spike - Arabian Sea",
+      "time": "5 min ago",
+      "detail": "SST anomaly +2.8°C above normal at 16.84°N, 69.63°E - Station ARA_01",
+      "severity": "moderate",
+      "confidence": 0.93
+    },
+    {
+      "title": "Species Absence Alert",
+      "time": "12 min ago",
+      "detail": "Significant reduction in fish abundance detected at Bay of Bengal monitoring station",
+      "severity": "high",
+      "confidence": 0.89
+    },
+    {
+      "title": "Water Quality Improvement",
+      "time": "18 min ago",
+      "detail": "Post-monsoon water clarity restored in Kerala backwaters - turbidity normalized",
+      "severity": "info",
+      "confidence": 0.82
+    },
+    {
+      "title": "AI Pattern Discovery",
+      "time": "27 min ago",
+      "detail": "New correlation found: Ocean pH levels show seasonal patterns linked to monsoon cycles",
+      "severity": "info",
+      "confidence": 0.91
+    }
+  ],
+  "system_health": {
+    "data_pipeline": "healthy",
+    "ai_processing": "healthy",
+    "alert_system": "healthy",
+    "storage_capacity": 78.5,
+    "network_latency_ms": 45,
+    "error_rate_percent": 0.02
+  },
+  "recent_activity": {
+    "datasets_ingested_today": 47,
+    "ai_jobs_completed": 23,
+    "alerts_generated": 6,
+    "species_identified": 8,
+    "correlations_discovered": 3
+  }
+}
